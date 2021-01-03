@@ -13,9 +13,9 @@
 			"description": "si klien kalo bersama edi.",
 			"required": true
 		},
-		"INDAHLISIO": {
-			"description": "Masukin kata indah",
-			"required": false
+		"TOKEN": {
+			"description": "Masukin kata indah oing oing",
+			"required": true
 		}
 	}
 }
