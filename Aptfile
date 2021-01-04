@@ -1,22 +1,3 @@
-https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/libtorrent-rasterbar-dbg_1.2.12+git20210104.bfafd20428-1ppa1~20.10_amd64.deb
 https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/libtorrent-rasterbar10_1.2.12+git20210104.bfafd20428-1ppa1~20.10_amd64.deb
-https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/libtorrent-rasterbar-dev_1.2.12+git20210104.bfafd20428-1ppa1~20.10_amd64.deb
-https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/python3-libtorrent-dbg_1.2.12+git20210104.bfafd20428-1ppa1~20.10_amd64.deb
-https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/python3-libtorrent_1.2.12+git20210104.bfafd20428-1ppa1~20.10_amd64.deb
-https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/qbittorrent-dbg_4.3.2.99~202012272006-7195-abb854a1e~ubuntu18.04.1_amd64.deb
-https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/qbittorrent_4.3.2.99~202012272006-7195-abb854a1e~ubuntu18.04.1_amd64.deb
 https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/qbittorrent-nox_4.3.2.99~202012272006-7195-abb854a1e~ubuntu18.04.1_amd64.deb
-libc6
-libboost-all-dev build-essential 
-libboost-system-dev 
-libboost-filesystem-dev 
-libboost-program-options-dev 
-libboost-filesystem-dev 
-libboost-program-options-dev 
-libboost-thread-dev
-build-essential
-libqt4-dev
-qtbase5-dev 
-qttools5-dev-tools
-python
 geoip-database
