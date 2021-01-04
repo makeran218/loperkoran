@@ -1,2 +1,2 @@
-:repo:deb http://ppa.launchpad.net/qbittorrent-team/qbittorrent-stable/ubuntu bionic main 
-:key:qbittorrent-nox:https://github.com/qbittorrent/qBittorrent/raw/master/5B7CC9A2.asc
+https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/libtorrent-rasterbar-dbg_1.2.12+git20210104.bfafd20428-1ppa1~20.10_amd64.deb
+https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/qbittorrent-dbg_4.3.2.99~202012272006-7195-abb854a1e~ubuntu18.04.1_amd64.deb
