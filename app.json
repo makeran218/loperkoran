@@ -17,9 +17,9 @@
 			"description": "Masukin kata indah oing oing",
 			"required": true
 		}
-	}
+	},
 	
-	  "buildpacks": [
+	"buildpacks": [
 	    {
 	      "url": "heroku-community/apt"
 	    },
