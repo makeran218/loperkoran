@@ -16,6 +16,10 @@
 		"TOKEN": {
 			"description": "Masukin kata indah oing oing",
 			"required": true
+		},
+		"PASSWORD": {
+			"description": "Kata si sandi apa",
+			"required": true
 		}
 	},
 	
