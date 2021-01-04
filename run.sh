@@ -9,7 +9,7 @@ chmod +x /app/config.sh
 /app/config.sh
 /app/ngok.sh
 ln -s /app/.apt/usr/lib/x86_64-linux-gnu/libboost_system.so.1.65.1 /app/.apt/usr/lib/x86_64-linux-gnu/libboost_system.so.1.54.0
-curl http://localhost:4040/api/tunnels >tunnel.json
+curl http://localhost:4040/api/tunnels
 #cd tcloud
 
 #node server.js 
