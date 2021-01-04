@@ -6,3 +6,11 @@ https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+file
 https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/qbittorrent-dbg_4.3.2.99~202012272006-7195-abb854a1e~ubuntu18.04.1_amd64.deb
 https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/qbittorrent_4.3.2.99~202012272006-7195-abb854a1e~ubuntu18.04.1_amd64.deb
 https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/qbittorrent-nox_4.3.2.99~202012272006-7195-abb854a1e~ubuntu18.04.1_amd64.deb
+libboost-dev 
+libboost-system-dev 
+build-essential
+libqt4-dev
+qtbase5-dev 
+qttools5-dev-tools
+python
+geoip-database
