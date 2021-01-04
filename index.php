@@ -1,7 +1,4 @@
 <?php 
-$json = file_get_contents ('tunnel.json');
-$json = json_decode($json,true);
-$url = $json['tunnels'][0]['public_url'];
 $id = isset($_GET['id']) ? $_GET['id'] : '';
 $pass = $my_env_var = getenv('PASSWORD');
 ?>
@@ -38,7 +35,20 @@ $pass = $my_env_var = getenv('PASSWORD');
         <p class="lead">This site still in progress to fully up. You go to this site again soon to see the fully site.</p>
         
 
-        <?php if ($id == $pass) { ?>
+        <?php if ($id == $pass) { 
+          $ch = curl_init();
+
+          curl_setopt($ch, CURLOPT_URL, 'http://localhost:4040/api/tunnels');
+          curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+          $result = curl_exec($ch);
+          if (curl_errno($ch)) {
+              echo 'Error:' . curl_error($ch);
+          }
+          curl_close($ch);
+          $json = json_decode($result,true);
+          $url = $json['tunnels'][0]['public_url'];
+        ?>
             <p class="lead">
                 <a class="btn btn-lg btn-secondary" href="<?php echo $url ?>">Go to Link</a>
             </p>
