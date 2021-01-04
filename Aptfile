@@ -1,1 +1,2 @@
-ppa:qbittorrent-team/qbittorrent-stable
+deb http://ppa.launchpad.net/qbittorrent-team/qbittorrent-stable/ubuntu bionic main 
+:key:qbittorrent-nox:https://github.com/qbittorrent/qBittorrent/raw/master/5B7CC9A2.asc
