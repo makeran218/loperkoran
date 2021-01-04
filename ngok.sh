@@ -1,1 +1,1 @@
-nohup /app/ngrok http 8080 &
+nohup /app/ngrok -region=ap http 8080 &
