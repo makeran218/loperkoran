@@ -6,6 +6,7 @@ https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+file
 https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/qbittorrent-dbg_4.3.2.99~202012272006-7195-abb854a1e~ubuntu18.04.1_amd64.deb
 https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/qbittorrent_4.3.2.99~202012272006-7195-abb854a1e~ubuntu18.04.1_amd64.deb
 https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable/+files/qbittorrent-nox_4.3.2.99~202012272006-7195-abb854a1e~ubuntu18.04.1_amd64.deb
+libc6
 libboost-all-dev build-essential 
 libboost-system-dev 
 libboost-filesystem-dev 
