@@ -29,7 +29,10 @@
 	    },
 	    {
 	      "url": "heroku/php"
-	    }
+	    },
+	   {
+		"url":"https://github.com/kenshin23/heroku-fuse-buildpack.git"
+	   }
 	  ]
 	
 
