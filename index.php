@@ -1,4 +1,5 @@
 <?php 
+ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
 $id = isset($_GET['id']) ? $_GET['id'] : '';
 $pass = $my_env_var = getenv('PASSWORD');
 ?>
