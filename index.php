@@ -1,5 +1,4 @@
 <?php 
-ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
 $id = isset($_GET['id']) ? $_GET['id'] : '';
 $pass = $my_env_var = getenv('PASSWORD');
 ?>
@@ -59,10 +58,10 @@ $pass = $my_env_var = getenv('PASSWORD');
             <form>
               <div class="form-group" method="POST">
                 <label for="exampleInputEmail1">Masukin Link sumber bros</label>
-                <input name="url" type="text" class="form-control" id="link" placeholder="Link disini brow..">
+                <input name="alamat" type="text" class="form-control" id="link" placeholder="Link disini brow..">
                 <small id="textHelper" class="form-text text-muted">Hanya khusus beberapa link sajo taiyo.</small>
               </div>
-              <input name="id" class="d-none" value="<?php echo $pass ?>">
+              <input name="sid" class="d-none" value="<?php echo $pass ?>">
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
 
@@ -83,9 +82,9 @@ $pass = $my_env_var = getenv('PASSWORD');
 
                 return $nodes;
             }
-
-            if  ($url!= '') {
-              $html = file_get_contents($url);
+            $alamat = isset($_GET['alamat']) ? $_GET['alamat'] : '';
+            if  ($alamat!= '') {
+              $html = file_get_contents($alamat);
               //Create a new DOM document
               $dom = new DOMDocument;
 
