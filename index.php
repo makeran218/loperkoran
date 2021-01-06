@@ -61,7 +61,7 @@ $pass = $my_env_var = getenv('PASSWORD');
                 <input name="url" type="text" class="form-control" id="link" placeholder="Link disini brow..">
                 <small id="textHelper" class="form-text text-muted">Hanya khusus beberapa link sajo taiyo.</small>
               </div>
-              <input name="sid" class="d-none" value="over">
+              <input name="sid" class="d-none" value="<?php echo $pass ?>">
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
 
