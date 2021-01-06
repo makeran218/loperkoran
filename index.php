@@ -55,7 +55,7 @@ $pass = $my_env_var = getenv('PASSWORD');
             </p>
 
 
-            <form  method="post">
+            <form  method="get">
               <div class="form-group">
                 <label for="exampleInputEmail1">Masukin Link sumber bros</label>
                 <input name="alamat" type="text" class="form-control" id="link" placeholder="Link disini brow..">
