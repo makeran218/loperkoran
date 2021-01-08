@@ -1,4 +1,4 @@
-deb http://ppa.launchpad.net/qbittorrent-team/qbittorrent-stable/ubuntu bionic main 
+:repo:deb http://ppa.launchpad.net/qbittorrent-team/qbittorrent-stable/ubuntu bionic main 
 :key:qbittorrent:https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xd35164147ca69fc4
 php-xml
 
