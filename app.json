@@ -29,7 +29,11 @@
 	    },
 	    {
 	      "url": "heroku/php"
+	    },
+	{
+	      "url": "https://github.com/reveel-it/heroku-buildpack-apt.git"
 	    }
+		
 	  ]
 	
 
