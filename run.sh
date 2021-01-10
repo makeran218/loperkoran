@@ -8,9 +8,9 @@ chmod +x /app/ngok.sh
 chmod +x /app/config.sh
 /app/config.sh
 sleep 5s
-echo =========run ngrok=======
+
 /app/ngok.sh
-cat nohup.out
+
 
 
 
