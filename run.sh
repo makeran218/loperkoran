@@ -6,6 +6,7 @@ nohup /app/.apt/usr/bin/qbittorrent-nox -d --webui-port=8080 &
 chmod +x /app/ngok.sh
 chmod +x /app/config.sh
 /app/config.sh
+/app/ngrok authtoken $TOKEN
 /app/ngok.sh
 
 
