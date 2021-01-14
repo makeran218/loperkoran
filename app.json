@@ -28,7 +28,7 @@
 	      "url": "heroku-community/apt"
 	    },
 		{
-	      "url": "heroku/heroku-buildpack-php"
+	      "url": "heroku/php"
 	    }
 		
 		
