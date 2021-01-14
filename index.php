@@ -44,8 +44,7 @@ $pass = $my_env_var = getenv('PASSWORD');
 
           $result = curl_exec($ch);
           if (curl_errno($ch)) {
-              echo 'Still restarting';
-              shell_exec('/app/ngok.sh');
+              echo 'Need Restart';
           }
           curl_close($ch);
           $json = json_decode($result,true);
