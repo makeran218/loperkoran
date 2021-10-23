@@ -31,7 +31,7 @@
 	      "url": "heroku/php"
 	    },{
 		    "url":"https://github.com/cdfxscrq/heroku-buildpack-rarlab"
-	    },{"url":"https://github.com/opendoor-labs/heroku-buildpack-p7zip"}
+	    },{"url":"https://github.com/blueport-io/heroku7zip"}
 		
 		
 	  ]
