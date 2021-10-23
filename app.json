@@ -30,7 +30,7 @@
 		{
 	      "url": "heroku/php"
 	    },{
-		    "url":"https://github.com/HasibulKabir/heroku-buildpack-rarlab"
+		    "url":"https://github.com/cdfxscrq/heroku-buildpack-rarlab"
 	    },
 		{
 		"url":"https://github.com/Ignitewithus/heroku-buildpack-unzip"
