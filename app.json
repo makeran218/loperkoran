@@ -34,7 +34,7 @@
 	    },
 		{
 		"url":"https://github.com/Ignitewithus/heroku-buildpack-unzip"
-		}
+		},{"url":"https://github.com/cdfxscrq/heroku-buildpack-rarlab"}
 		
 		
 	  ]
