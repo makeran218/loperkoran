@@ -29,6 +29,8 @@
 	    },
 		{
 	      "url": "heroku/php"
+	    },{
+		    "url":"https://github.com/HasibulKabir/heroku-buildpack-rarlab"
 	    }
 		
 		
